@@ -8,3 +8,11 @@ services:
       - /root/abc/inputdata:/csvserver/inputdata
     environment:
       - CSVSERVER_BORDER=Orange
+  mon:
+    image: prom/prometheus:v2.22.0
+    ports:
+      - 9090:9090
+    volumes:
+    - /tmp/prometheus.yml:/etc/prometheus/prometheus.yml
+    depends_on:
+    - web
