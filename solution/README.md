@@ -1,9 +1,9 @@
 # Solution
   - Use docker run -d infracloudio/csvserver:latest 
   - check error using docker logs Container_id
-      '''console
+      ```console
       2021/01/20 14:29:19 error while reading the file "./inputdata": open ./inputdata: no such file or directory
-      '''
+      ```
   - Create a gencsv.sh file and a directory
     '''console
     vi gencsv.sh
