@@ -5,7 +5,7 @@ services:
     ports:
       - "9393:9300"
     volumes:
-      - /root/abc/inputFile:/csvserver/inputdata
+      - /root/inputFile:/csvserver/inputdata
     environment:
       - CSVSERVER_BORDER=Orange
   mon:
