@@ -28,15 +28,13 @@
   - To set environment variable and port use -e and -p options.
     ```console
     docker run -d -p 9393:9300 -v /root/inputFile:/csvserver/inputdata -e CSVSERVER_BORDER=Orange infracloudio/csvserver:latest
-	  ```
-  
-  
+    ```
   - docker-compose file is provided at **solution** directory
   ```console
   docker-compose up
-	```
+  ```
   - Promethus requires promethus configuration file called as promethus.yml which is provided in solution directory.
 > **NOTE**: Change ip address and port in promethus.yml file.
   ```console
   docker-compose up
-	```    
+  ```    
