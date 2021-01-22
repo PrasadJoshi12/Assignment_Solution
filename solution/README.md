@@ -30,11 +30,11 @@
     docker run -d -p 9393:9300 -v /root/inputFile:/csvserver/inputdata -e CSVSERVER_BORDER=Orange infracloudio/csvserver:latest
     ```
   - `docker-compose.yml` file is available at **solution** directory
-  ```console
-  docker-compose up
-  ```
+     ```console
+     docker-compose up
+     ```
   - Prometheus requires prometheus configuration file called as `prometheus.yml` which is provided in solution directory.
 > **NOTE**: Change ip address and port in `prometheus.yml` file.
-  ```console
-  docker-compose up
-  ```
+    ```console
+    docker-compose up
+    ```
