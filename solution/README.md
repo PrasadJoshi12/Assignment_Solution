@@ -31,7 +31,7 @@
     ```
 ## Part II
   - `docker-compose.yml` file is available at **solution** directory.
-  - Use 
+  - Use `docker-compose up` command to run container. 
     ```console
     docker-compose up
     ```
