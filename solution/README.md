@@ -37,8 +37,7 @@
 
 ## Part III
 - Prometheus requires prometheus configuration file called as `prometheus.yml` which is provided in solution directory.
-- 
 > **NOTE**: Change ip address and port in `prometheus.yml` file.
-    ```console
-    docker-compose up
-    ```
+```console
+docker-compose up
+```
