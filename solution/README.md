@@ -31,6 +31,7 @@
     ```
 ## Part II
   - `docker-compose.yml` file is available at **solution** directory.
+  - Use 
     ```console
     docker-compose up
     ```
@@ -40,6 +41,6 @@
 - Change ip address and port in `prometheus.yml` file.
   ```console
   static_configs:
-      - targets: ['192.168.0.18:9393']    
+      - targets: ['192.168.0.18:9393']
   ```
 - Use `docker-compose up` command to run containers.
